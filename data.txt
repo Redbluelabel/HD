@@ -1,0 +1,10 @@
+
+DNA CpG methylation data can be obtained from the GEO database.
+
+1)	Go to https://www.ncbi.nlm.nih.gov/geo/
+2)	Select an appropriate dataset. For instance: GSE 147004
+3)	Download the data 
+
+The data needs to be in matrix/vector form with no missing values. 
+The download from the GEO database will contain additional information that needs to be delete. 
+A canonical indicator (vector) identifying every individual as a control (0) or patient (1) needs to be manually constructed.   
